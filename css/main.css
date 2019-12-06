@@ -34,7 +34,11 @@ h2 {
 }
 
 h3 {
-  /* Default font, size, and margins */
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--Ultravision-Black);
 }
 
 h4 {
