@@ -41,6 +41,21 @@ h3 {
   color: var(--Ultravision-Black);
 }
 
+.titre-boites {
+font-family: Poppins;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+color: var(--Ultravision-Black);
+}
+
+.texte-boites {
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: justify;
+  color: var(--Ultravision-Black);
+}
+
 h4 {
   /* Default font, size, and margins */
 }
