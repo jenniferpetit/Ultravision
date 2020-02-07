@@ -101,20 +101,31 @@ color: #231f20;
   justify-content: space-between;
 }
 
+.big-boite2part {
+  display: flex;
+  justify-content: space-between; 
+}
+
 .boite-texte1 {
-max-width: 50%;
+  flex-basis: 0;
+  flex-grow: 1;
 padding-left: 48px;
-padding-right: 0px;
+padding-right: 32px;
+margin-bottom: 86px;
 }
 
 .boite-texte2 {
-max-width: 50%;
-padding-left: 0px;
+  flex-basis: 0;
+  flex-grow: 1;
+padding-left: 32px;
 padding-right: 48px;
   }
 
 .boite-image1 {
+  flex-basis: 0;
+  flex-grow: 1;
 background-color: #fcce00;
+margin-bottom: 86px;
 }
 
 .boite-image1 img{
@@ -122,12 +133,24 @@ mix-blend-mode: multiply;
 }
 
 .boite-image2{
+  flex-basis: 0;
+  flex-grow: 1;
 background-color: #ff6b00; 
 }
 
 .boite-image2 img{
   mix-blend-mode: multiply;
   }
+
+  .big-boite3 {
+display: flex;
+justify-content: space-between;
+background-color: #e02020; 
+  }
+
+  .big-boite3 img{
+    mix-blend-mode: multiply;
+    }
 
 .button1 {
   font-family: Poppins;
@@ -175,20 +198,24 @@ h4 {
   color: #231f20;;
   }
 
-.titre-boites2part{
+.boite-texte3 {
+  padding-left: 60px;
+}
+
+.titre-boite3{
   font-family: Poppins;
   font-size: 32px;
   font-weight: 900;
   color: #ffffff;
 }
 
-.texte-boites2part {
+.texte-boite3 {
   font-family: Poppins;
   font-size: 24px;
   color: #ffffff;
 }
 
-.button2part{
+.button3part{
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
@@ -198,6 +225,73 @@ h4 {
   border-radius: 15px;
   padding: 7px 24px 7px 24px;
 }
+
+.boite-image3 {
+  margin-top: 8px;
+  margin-bottom: 46px;
+}
+
+.button4part{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  border: solid 4px #ffffff;
+  border-radius: 15px;
+  padding: 7px 24px 7px 24px;
+}
+
+.boite-image4 {
+  margin-top: 8px;
+  margin-bottom: 46px;
+}
+
+
+.boite-texte4 {
+  padding-left: 60px;
+}
+
+.big-boite4 {
+display: flex;
+justify-content: space-between;
+background-color: #b620e0; 
+}
+
+.big-boite4 img{
+  mix-blend-mode: multiply;
+  }
+
+.button5part{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  border: solid 4px #ffffff;
+  border-radius: 15px;
+  padding: 7px 24px 7px 24px;
+}
+
+.boite-image5 {
+  margin-top: 8px;
+  margin-bottom: 46px;
+}
+
+.boite-texte5 {
+  padding-left: 60px;
+}
+
+.big-boite5 {
+  display: flex;
+  justify-content: space-between;
+background-color: #6236ff; 
+}
+
+.big-boite5 img{
+  mix-blend-mode: multiply;
+  }
+
 
 h6 {
   /* Default font, size, and margins */
