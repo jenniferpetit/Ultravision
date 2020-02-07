@@ -117,9 +117,17 @@ padding-right: 48px;
 background-color: #fcce00;
 }
 
+.boite-image1 img{
+mix-blend-mode: multiply;
+}
+
 .boite-image2{
 background-color: #ff6b00; 
 }
+
+.boite-image2 img{
+  mix-blend-mode: multiply;
+  }
 
 .button1 {
   font-family: Poppins;
@@ -158,6 +166,38 @@ h4 {
     text-align: center;
     color: #231f20;
   }
+
+.sub-title2part {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #231f20;;
+  }
+
+.titre-boites2part{
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.texte-boites2part {
+  font-family: Poppins;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.button2part{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  border: solid 4px #ffffff;
+  border-radius: 15px;
+  padding: 7px 24px 7px 24px;
+}
 
 h6 {
   /* Default font, size, and margins */
