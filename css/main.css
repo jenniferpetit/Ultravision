@@ -15,23 +15,55 @@ p, li, textarea, label, input, select {
 
 
 
-h1 {
+.title {
     font-family: Poppins;
     font-size: 88px;
     font-weight: 900;
     text-align: center;
     color: #ffffff;
-    background-color: #fcce00
+    background-color: #fcce00; 
+    margin-block-start: 8px;
+    margin-block-end: 0px;
 }
 
-h2 {
+.section-title {
   font-family: Poppins;
   font-size: 38px;
   font-weight: 900;
   text-align: center;
   color: #ffffff;
-  background-color: #ff6b00
+  background-color: #ff6b00;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
 }
+
+.section-rouge {
+  width: 1440px;
+  height: 32px;
+  opacity: 0.81;
+  background-color: #e02020;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
+}
+
+.section-violet {
+width: 1440px;
+height: 16px;
+opacity: 0.81;
+background-color:#b620e0;
+margin-block-start: 8px;
+  margin-block-end: 0px;
+}
+
+.section-bleu {
+  width: 1440px;
+  height: 8px;
+  opacity: 0.81;
+  background-color: #6236ff;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
+  }
+  
 
 h3 {
   font-family: Poppins;
@@ -68,10 +100,14 @@ color: var(--Ultravision-Black);
 
 .boite-texte1 {
 max-width: 50%;
+margin-inline-start: 48px;
+margin-inline-end: 0px;
 }
 
 .boite-texte2 {
-  max-width: 50%;
+max-width: 50%;
+margin-inline-start: 0px;
+margin-inline-end: 48px;
   }
 
 h4 {
