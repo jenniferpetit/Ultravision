@@ -86,6 +86,7 @@ color: #231f20;
 .big-boite1 {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 86px;
 }
 
 .big-boite2 {
@@ -103,7 +104,6 @@ color: #231f20;
   flex-grow: 1;
 padding-left: 48px;
 padding-right: 32px;
-margin-bottom: 86px;
 }
 
 .boite-texte2 {
@@ -117,7 +117,6 @@ padding-right: 48px;
   flex-basis: 0;
   flex-grow: 1;
 background-color: #fcce00;
-margin-bottom: 86px;
 }
 
 .boite-image1 img{
@@ -275,6 +274,23 @@ background-color: #6236ff;
   mix-blend-mode: multiply;
   }
 
+.releases-div {
+  background-color: #231f20;
+  text-align: center;
+}
+
+.releases-grid {
+  display: grid;
+  max-width: 1440px;
+  grid-gap: 32px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 34px;
+  padding-right: 34px;
+  /* grid-template-rows: 320px 320px 320px; */
+  /*grid-auto-flow: column;*/
+}
 
 h6 {
   /* Default font, size, and margins */
