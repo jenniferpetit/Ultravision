@@ -85,12 +85,14 @@ color: #231f20;
 
 .big-boite1 {
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   margin-bottom: 86px;
 }
 
 .big-boite2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -100,22 +102,19 @@ color: #231f20;
 }
 
 .boite-texte1 {
-  flex-basis: 0;
-  flex-grow: 1;
+  flex: 1 1 450px;
 padding-left: 48px;
 padding-right: 32px;
 }
 
 .boite-texte2 {
-  flex-basis: 0;
-  flex-grow: 1;
+  flex: 1 1 450px;
 padding-left: 32px;
 padding-right: 48px;
-  }
+}
 
 .boite-image1 {
-  flex-basis: 0;
-  flex-grow: 1;
+  flex: 1 1 450px;
 background-color: #fcce00;
 }
 
@@ -124,9 +123,8 @@ mix-blend-mode: multiply;
 }
 
 .boite-image2{
-  flex-basis: 0;
-  flex-grow: 1;
-background-color: #ff6b00; 
+  flex: 1 1 450px;
+background-color: #ff6b00;
 }
 
 .boite-image2 img{
