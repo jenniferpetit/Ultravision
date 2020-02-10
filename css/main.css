@@ -290,6 +290,47 @@ background-color: #6236ff;
   /*grid-auto-flow: column;*/
 }
 
+.form-row {
+  color: white;
+}
+
+.form-row input, .form-row select {
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: black;
+  min-width: 320px;
+  height: 38px;
+  border: none;
+  margin-top: 5px;
+}
+
+.contact-form {
+  text-align: left;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 21px;
+  justify-items: center;
+  max-width: 944px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-row-a, .form-row-b, .form-row-c {
+  grid-column: 1;
+}
+
+.form-row-d {
+  grid-column: 2;
+  grid-row: 1 / 4;
+}
+
+.form-row-d input {
+  height: 212px;
+  min-width: 560px;
+}
+
 h6 {
   /* Default font, size, and margins */
 }
