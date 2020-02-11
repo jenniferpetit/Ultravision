@@ -25,6 +25,9 @@ li {
     background-color: #fcce00; 
     margin-block-start: 8px;
     margin-block-end: 0px;
+    height: 128px;
+    opacity: 0.81;
+    line-height: 122px;
 }
 
 .section-title {
@@ -35,6 +38,9 @@ li {
   background-color: #ff6b00;
   margin-block-start: 8px;
   margin-block-end: 0px;
+  height: 64px;
+  opacity: 0.81;
+  line-height: 64px;
 }
 
 .section-rouge {
@@ -66,6 +72,7 @@ h3 {
   font-size: 40px;
   font-weight: 900;
   text-align: center;
+  margin: 66px;
   color: #231f20;
 }
 
@@ -74,6 +81,7 @@ font-size: 24px;
 font-weight: bold;
 text-align: center;
 color: #231f20;
+  margin-top: 0px;
 }
 
 .texte-boites {
@@ -120,6 +128,8 @@ background-color: #fcce00;
 
 .boite-image1 img{
 mix-blend-mode: multiply;
+  display: block;
+  margin-left: auto;
 }
 
 .boite-image2{
@@ -129,7 +139,10 @@ background-color: #ff6b00;
 
 .boite-image2 img{
   mix-blend-mode: multiply;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .big-boite3 {
 display: flex;
@@ -275,6 +288,7 @@ background-color: #6236ff;
 .releases-div {
   background-color: #231f20;
   text-align: center;
+  padding: 1px;
 }
 
 .releases-grid {
@@ -302,6 +316,7 @@ background-color: #6236ff;
   height: 38px;
   border: none;
   margin-top: 5px;
+  padding: 5px;
 }
 
 .contact-form {
@@ -337,7 +352,7 @@ h6 {
 
 
 a {
-  /* Link color */
+  text-decoration:none;
 }
 
 a:hover {
