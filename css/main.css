@@ -156,7 +156,7 @@ background-color: #ff6b00;
   .big-boite3 {
 display: flex;
 justify-content: space-between;
-background-color: #e02020; 
+background-color: #e02020cf;
   }
 
   .big-boite3 img{
@@ -258,7 +258,7 @@ h4 {
 .big-boite4 {
 display: flex;
 justify-content: space-between;
-background-color: #b620e0; 
+background-color: #b620e0cf;
 }
 
 .big-boite4 img{
@@ -287,7 +287,7 @@ background-color: #b620e0;
 .big-boite5 {
   display: flex;
   justify-content: space-between;
-background-color: #6236ff; 
+background-color: #6236ffcf;
 }
 
 .big-boite5 img{
