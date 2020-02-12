@@ -379,6 +379,7 @@ background-color: #6236ffcf;
   background-color: #231f20;
   text-align: center;
   padding: 1px;
+  min-height: 2140px;
 }
 
 .releases-grid {
@@ -394,11 +395,19 @@ background-color: #6236ffcf;
   /*grid-auto-flow: column;*/
 }
 
+.titre-contact {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 .form-row {
   color: white;
 }
 
-.form-row input, .form-row select {
+.form-row input, .form-row select, .form-row textarea {
   border-radius: 8px;
   background-color: #ffffff;
   color: black;
@@ -416,10 +425,14 @@ background-color: #6236ffcf;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 21px;
-  justify-items: center;
+  justify-items: right;
   max-width: 944px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact-form label {
+  margin-left: 8px;
 }
 
 .form-row-a, .form-row-b, .form-row-c {
@@ -431,7 +444,7 @@ background-color: #6236ffcf;
   grid-row: 1 / 4;
 }
 
-.form-row-d input {
+.form-row-d input, .form-row-d textarea {
   height: 212px;
   min-width: 560px;
 }
