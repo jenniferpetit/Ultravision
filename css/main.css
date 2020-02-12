@@ -174,13 +174,22 @@ background-color: #ff6b00cf;
 
   .big-boite3 {
 display: flex;
-justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 background-color: #e02020cf;
+    min-height: 640px;
   }
 
   .big-boite3 img{
     mix-blend-mode: multiply;
+    max-width: unset;
     }
+
+@media (max-width: 899px) {
+  .big-boite3 img{
+    max-width: 100%;
+  }
+}
 
 .button1 {
   font-size: 20px;
@@ -225,18 +234,22 @@ h4 {
   }
 
 .boite-texte3 {
+  flex: 1 1 450px;
   padding-left: 60px;
+  padding-right: 60px;
 }
 
 .titre-boite3{
   font-size: 32px;
   font-weight: 900;
   color: #ffffff;
+  margin-bottom: 32px;
 }
 
 .texte-boite3 {
   font-size: 24px;
   color: #ffffff;
+  margin: 0;
 }
 
 .button3part{
@@ -247,11 +260,20 @@ h4 {
   border: solid 4px #ffffff;
   border-radius: 15px;
   padding: 7px 24px 7px 24px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  display: inline-block;
+}
+
+@media (max-width: 899px) {
+  .button3part{
+    display: block;
+  }
 }
 
 .boite-image3 {
-  margin-top: 8px;
-  margin-bottom: 46px;
+  margin: auto;
+  flex: 1 1 450px;
 }
 
 .button4part{
@@ -262,27 +284,47 @@ h4 {
   border: solid 4px #ffffff;
   border-radius: 15px;
   padding: 7px 24px 7px 24px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  display: inline-block;
+}
+
+@media (max-width: 899px) {
+  .button4part{
+    display: block;
+  }
 }
 
 .boite-image4 {
-  margin-top: 8px;
-  margin-bottom: 46px;
+  margin: auto;
+  flex: 1 1 450px;
 }
 
 
 .boite-texte4 {
+  flex: 1 1 450px;
   padding-left: 60px;
+  padding-right: 60px;
 }
 
 .big-boite4 {
 display: flex;
-justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 background-color: #b620e0cf;
+  min-height: 640px;
 }
 
 .big-boite4 img{
   mix-blend-mode: multiply;
+  max-width: unset;
+}
+
+@media (max-width: 899px) {
+  .big-boite4 img{
+    max-width: 100%;
   }
+}
 
 .button5part{
   font-size: 20px;
@@ -292,26 +334,46 @@ background-color: #b620e0cf;
   border: solid 4px #ffffff;
   border-radius: 15px;
   padding: 7px 24px 7px 24px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  display: inline-block;
+}
+
+@media (max-width: 899px) {
+  .button5part{
+    display: block;
+  }
 }
 
 .boite-image5 {
-  margin-top: 8px;
-  margin-bottom: 46px;
+  margin: auto;
+  flex: 1 1 450px;
 }
 
 .boite-texte5 {
+  flex: 1 1 450px;
   padding-left: 60px;
+  padding-right: 60px;
 }
 
 .big-boite5 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 background-color: #6236ffcf;
+  min-height: 640px;
 }
 
 .big-boite5 img{
   mix-blend-mode: multiply;
+  max-width: unset;
+}
+
+@media (max-width: 899px) {
+  .big-boite5 img{
+    max-width: 100%;
   }
+}
 
 .releases-div {
   background-color: #231f20;
