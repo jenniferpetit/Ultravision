@@ -84,18 +84,25 @@ color: #231f20;
   margin-top: 0px;
 }
 
+@media (max-width: 899px) {
+  .titre-boites {
+    margin-top: 32px;
+  }
+}
+
 .texte-boites {
   font-size: 16px;
   text-align: justify;
   color: #231f20;
   margin: 0px;
+  line-height: 23px;
 }
 
 .big-boite1 {
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
-  margin-bottom: 86px;
+  margin-bottom: 64px;
 }
 
 .big-boite2 {
@@ -124,6 +131,7 @@ padding-right: 48px;
 .boite-image1 {
   flex: 1 1 450px;
 background-color: #fcce00;
+  opacity: 0.81;
 }
 
 .boite-image1 img{
@@ -135,6 +143,7 @@ mix-blend-mode: multiply;
 .boite-image2{
   flex: 1 1 450px;
 background-color: #ff6b00;
+  opacity: 0.81;
 }
 
 .boite-image2 img{
