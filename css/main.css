@@ -105,6 +105,12 @@ color: #231f20;
   margin-bottom: 64px;
 }
 
+@media (max-width: 899px) {
+  .big-boite1 {
+    margin-bottom: 32px;
+  }
+}
+
 .big-boite2 {
   display: flex;
   flex-wrap: wrap;
@@ -130,25 +136,38 @@ padding-right: 48px;
 
 .boite-image1 {
   flex: 1 1 450px;
-background-color: #fcce00;
-  opacity: 0.81;
+background-color: #fcce00cf;
+  height: 512px;
+  position: relative;
 }
 
 .boite-image1 img{
 mix-blend-mode: multiply;
   display: block;
-  margin-left: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 507px) {
+  .boite-image1 img {
+    right: 16px;
+  }
 }
 
 .boite-image2{
   flex: 1 1 450px;
-background-color: #ff6b00;
-  opacity: 0.81;
+background-color: #ff6b00cf;
+  height: 512px;
+  position: relative;
 }
 
 .boite-image2 img{
   mix-blend-mode: multiply;
   display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin-left: auto;
   margin-right: auto;
 }
